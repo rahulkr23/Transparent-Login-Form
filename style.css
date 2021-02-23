@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(home.jpg) no-repeat center center fixed;
+    background-size: cover;
+ 
+}
+.container{
+  
+    position: absolute;
+    top: 18%;
+    left: 39%;
+}
+.container h1{
+    font-size: 48px;
+    border-bottom: 5px solid gray;
+    margin-bottom: 25px;
+    padding: 15px 0;
+    color: cornsilk;
+}
+.box{
+    width: 100%;
+    border-bottom: 2px solid black;
+    margin: 33px 0;
+    color: rgb(255, 253, 253);
+  
+   
+}
+.box input{
+    background: none;
+    width: 70%;
+    border: none;
+    outline: none;
+    color: rgb(255, 239, 239);
+    
+    padding: 12px 0px;
+    font-size: 20px;
+
+}
+.btn{
+    cursor: pointer;
+    outline: none;
+    width: 25%;
+    margin: 12px 0;
+    padding: 10px;
+    border-radius: 12px;
+    border: 2px solid black;
+    font-size: 23px;
+}
+.btn i{
+    width: 25px;
+    padding: 0 10px; 
+    text-align: center;
+    color: white;
+}
+.btn:hover{
+    color: rgb(51, 49, 49);
+    background-color: cyan;
+}
+ .container footer{
+    background: black;
+    color: white;
+    padding: 9px 20px;
+
+}
